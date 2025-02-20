@@ -17,16 +17,23 @@
                 <li><a href="#contato">Contatos</a></li>
                 <li><a href="https://www.google.com.br" target="_blank">Google</a></li>
             </ul>
-
         </nav>
+
     </header>
     <section id="sobre">
         <h2>Sobre mim </h2>
-        <img src="https://i.pinimg.com/736x/9b/04/4e/9b044e87943e55b1d8fa683ca234c551.jpg" alt="Fotinho fofa">
 
-        <article>
-            <p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDpcb3tUp6wm7gldKGS3wSBUCbTsfopzjf5g&s"
+            title="Fotinho de perfil">
+        <img src="capivara.png" alt="Imagem indisponível">
+
+
+        <article> <!-- Para texto-->
+            <p> <!-- Paragráfo-->
                 Sou uma capivara Joinvillense.
+                Gosto de explorar a cidade através dos diversos rios e parques.
+                Comecei a estudar programação para aproveitar as oportunidades que a cidade oferece.
+                Não vá para Sorocaba, venha para Joinville.
             </p>
         </article>
         <aside>
@@ -61,6 +68,35 @@
                 Email: <a href="mailto:capi@capi.com">capi@capi.com</a> <br>
                 Telefone: <a href="tel:+55 47 9999-8877">47 99999-8877</a>
             </address>
+            <br>
+            <form action="">
+                <label for="nome">Nome: </label>
+                <input type="text" id="nome" name="nome" required> <br>
+
+                <label for="email">E-mail: </label>
+                <input type="email" id="email" name="email" required> <br>
+
+                <label for="telefone">Telefone: </label>
+                <input type="tel" id="telefone" name="telefone"> <br>
+
+                <label for="assunto">Assunto:</label>
+                <select name="assunto" id="assunto">
+                    <option value="orcamento">Orçamento</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="outro">Outro</option>
+                </select>
+                <br>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" cols="20" rows="5" required> </textarea> <br>
+
+                <input type="checkbox" id="inscricao" name="inscricao">
+                <label for="inscricao">Deseja receber newsletter? Fique por dentro.</label> <br>
+
+                <input type="submit" value="Enviar mensagem.">
+
+
+            </form>
         </section>
     </footer>
 </body>
